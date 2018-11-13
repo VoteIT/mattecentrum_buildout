@@ -3,7 +3,7 @@
 
 cd /etc/nginx
 ln -s /home/voteit/srv/mattecentrum_buildout/etc/nginx.conf ./sites-available/mattecentrum.conf
-ln -s ./sites-available/mattecentrum.conf ../sites-enabled/.
+ln -s ./sites-available/mattecentrum.conf ./sites-enabled/.
 
 service nginx stop
 certbot certonly --standalone -d mattecentrum.voteit.se
