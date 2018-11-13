@@ -16,6 +16,7 @@ build/
 dist/
 parts/
 .tox/
+.idea
 nosetests.xml
 env*/
 tmp/
